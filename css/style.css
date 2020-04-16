@@ -1,5 +1,43 @@
 body{
+    height: 100%;
     background-color: #7FFFD4;
+}  
+
+.middle{
+    top: 80px;
+    left: 620px;
+    width: 200px;
+    min-height: 200px;
+    height: auto;   
+    position: relative;
+}
+
+.loginwrapper{
+    background-color: #329DA8;
+    border-radius: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 180px;
+    height: auto;
+
+
+}
+.login{
+    float: left; 
+    border-left: 2px solid grey;
+    padding-left: 10px;
+}
+
+
+.register{
+    float: right; 
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 
 
@@ -8,3 +46,20 @@ body{
     top: 0;
     left: 0;
  }
+
+input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #329DA8;
+    padding-left: 10px;
+    
+}
+
+button{
+    background-color:#4CAF50; 
+    border:#4CAF50; 
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+}
